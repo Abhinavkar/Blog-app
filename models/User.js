@@ -17,6 +17,6 @@ const userSchema= new Schema({
         trim:true,
         minlength:6
     },
-    blogs:[{type:mongoose.Types.objectid,ref:"blog",required:true}],
+    blogs:[{type:mongoose.Types.objeid,ref:"blog",required:true}],
 });
 export default mongoose.models("Users",userSchema())
